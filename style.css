@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(0deg, rgb(253, 143, 103), rgb(212, 99, 163));
+    min-height: 110vh;
+    @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,600;1,500&family=Uchen&display=swap');
+}
+section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    margin-top: 50px;
+}
+.subhade{
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.inner_link{
+    background-color: rgb(82,128,251);
+    padding: 20px;
+    border: 2px solid rgb(82,128,251);
+}
+
+.inner_link:hover{
+    background-color: transparent;
+    border: 2px solid rgb(82,128,251);
+    color: rgb(82,128,251);
+    transition: 0.1s;
+}
+.sub_link{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:720px) {
+    section{
+        width: 100%;
+    }
+}
+@media screen and (max-width:912px) {
+    section{
+        width: 100%;
+    }
+}
